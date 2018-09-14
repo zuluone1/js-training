@@ -8,6 +8,12 @@
  */
 
 // Your code :
+let obj = {
+	str : String('1337'),
+	num : Number(42),
+	bool : Boolean(false),
+	undef : undefined
+}
 
 //* Begin of tests
 const assert = require('assert')
