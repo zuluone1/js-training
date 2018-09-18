@@ -8,6 +8,14 @@
  */
 
 // Your code:
+function isPositive(parameter) {
+	if(parameter > 0) {
+		return true;
+	}
+	else{
+		return false;
+	}
+}
 
 
 //* Begin of tests

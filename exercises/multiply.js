@@ -9,6 +9,23 @@
  */
 
 // Your code :
+function multiply(numberOne, numberTwo){
+	let total = 0;
+
+	if(numberOne > 0){
+		while(numberOne > 0){
+			total += numberTwo;
+			numberOne--;
+		}
+	}
+	else{
+		while(numberOne < 0){
+			total -= numberTwo;
+			numberOne++;
+		}
+	}
+	return total
+}
 
 //* Begin of tests
 const assert = require('assert')
