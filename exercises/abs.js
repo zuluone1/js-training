@@ -14,6 +14,9 @@ function abs(numberOne){
 	if (numberOne > 0) {
 		return(numberOne)
 	}
+	else if (numberOne === 0) {
+		return(0)
+	}
 	else{
 		return(-numberOne)
 	}
